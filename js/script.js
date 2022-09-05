@@ -182,7 +182,7 @@ const Toast = Swal.mixin({
   VaciarCarroModal.addEventListener('click', () => {
     
     Swal.fire({
-        title: 'Estas seguro de vaciar el carrito?',
+        title: 'Está seguro de vaciar el carrito?',
         icon: 'warning',
         showCancelButton: true,
         confirmButtonColor: '#a5dc86',
@@ -192,7 +192,7 @@ const Toast = Swal.mixin({
       }).then((result) => {
         if (result.isConfirmed) {
           Swal.fire(
-            'Tu Carrito se ha vaciado con Exito',
+            'Tu Carrito fué vaciado con éxito',
           )
         carrito.length = 0
         actualizarCarro()
@@ -209,7 +209,7 @@ const Toast = Swal.mixin({
     Swal.fire({
         position: 'center',
         icon: 'success',
-        title: 'Pedido realizado con exito',
+        title: 'Pedido realizado con éxito',
         showConfirmButton: false,
         timer: 1500
       })
