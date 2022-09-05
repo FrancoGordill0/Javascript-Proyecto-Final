@@ -1,0 +1,34 @@
+[
+    {
+    "id": 5,
+    "nombre": "Milanesa Napolitana",
+    "cantidad": 1,
+    "precio": "Proximamente",
+    "desc": "Napolitana al plato con papas fritas",
+    "img": "./img/napolitana.png"
+},
+{
+    "id": 6,
+    "nombre": "Tira de Asado",
+    "cantidad": 1,
+    "precio": "Proximamente",
+    "desc": "Tira de asado con papas fritas",
+    "img": "./img/asadotira.png"
+},
+{
+    "id": 7,
+    "nombre": "Humita",
+    "cantidad": 1,
+    "precio": "Proximamente",
+    "desc" : "Porción de Humita con queso",
+    "img": "./img/humita.png"
+},
+{
+    "id": 8,
+    "nombre": "Locro",
+    "cantidad": 1,
+    "precio": "Proximamente",
+    "desc": "Porción de Locro",
+    "img": "./img/locro.png"
+}
+]
